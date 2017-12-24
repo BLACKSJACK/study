@@ -1,19 +1,23 @@
 {
-  "name": "study",
-  "version": "1.0.0",
-  "description": "Обучаеся по тихому",
+  "name": "study_2.0",
+  "version": "1.0.3",
+  "description": "Проверка",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/BLACKSJACK/study.git"
+    "url": "git+https://github.com/BLACKSJACK/study.git"
   },
   "author": "RoGGeR",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BLACKSJACK/study/issues"
   },
-  "homepage": "https://github.com/BLACKSJACK/study#readme"
+  "homepage": "https://github.com/BLACKSJACK/study#readme",
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-google": "^0.9.1"
+  }
 }
