@@ -5,6 +5,8 @@ module.exports = {
         "sourceType": "module"
         },
         "rules":{
-            "comma-dangle": [2, "never"]
+            "max-len": [1, 140],
+            "comma-dangle": [2, "never"],
+            "require-jsdoc":0,
         }
 };

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+
+</head>
+<body>
+    <div class="js-app"></div>
+</body>
+<script type="module">
+    import {App} from "./components/app/app.js";
+
+    let app=new App( 
+        {
+            el: document.querySelector('.js-app')
+        } 
+    );
+
+</script>
+</html>
