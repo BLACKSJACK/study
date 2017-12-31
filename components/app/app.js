@@ -18,7 +18,6 @@ const messages=[
 
 export class App {
     constructor( {el}, ...rest ) {
-        console.log(rest);
         this.el=el;
         this.chat=new Chat({
             el: document.createElement('div'),
